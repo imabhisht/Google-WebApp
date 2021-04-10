@@ -8,9 +8,9 @@ import {db} from '../firebase'
 function Search({results}) {
     
     const router = useRouter();
-    // console.clear();
-    // console.log("Oh, Hello my Curious Friend!\n\nThanks for testing my Build.\n\nI have used Google API's to fetch data and done Sever-Side Rendering of those data. Here is the Example Output of the Data you just Fetched: \n\n",
-    // results,"\n\nHappy Hunting!! 😉\n\n~ Abhisht\nhttp://github.com/imabhisht")
+    console.clear();
+    console.log("Oh, Hello my Curious Friend!\n\nThanks for testing my Build.\n\nI have used Google API's to fetch data and done Sever-Side Rendering of those data. Here is the Example Output of the Data you just Fetched: \n\n",
+    results,"\n\nHappy Hunting!! 😉\n\n~ Abhisht\nhttp://github.com/imabhisht")
 
     return (
         <div>
